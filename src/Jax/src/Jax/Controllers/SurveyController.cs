@@ -12,9 +12,9 @@ namespace Jax.Controllers
 {
     public class SurveyController : Controller
     {
-        private readonly JaxDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public SurveyController(JaxDbContext context)
+        public SurveyController(ApplicationDbContext context)
         {
             _context = context;    
         }

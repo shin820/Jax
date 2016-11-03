@@ -43,8 +43,6 @@ namespace Jax
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseMySql(connectionString));
-            services.AddDbContext<JaxDbContext>(options =>
-                options.UseMySql(connectionString));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
