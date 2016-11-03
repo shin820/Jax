@@ -12,7 +12,7 @@ namespace Jax.Controllers
         public async Task<IActionResult> Index()
         {
             JaxContext context = new JaxContext();
-            return View(await context.Surveys.ToListAsync());
+            return View(await context.Survey.ToListAsync());
         }
     }
 }

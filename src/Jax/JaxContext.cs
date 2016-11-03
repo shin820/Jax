@@ -9,13 +9,14 @@ namespace Jax
 {
     public class JaxContext : DbContext
     {
-        public DbSet<Survey> Surveys { get; set; }
-        public DbSet<Question> Questions { get; set; }
-        public DbSet<QuestionAnswer> QuestionAnswers { get; set; }
+        public DbSet<Survey> Survey { get; set; }
+        public DbSet<Question> Question { get; set; }
+        public DbSet<QuestionAnswer> QuestionAnswer { get; set; }
+        public DbSet<QuestionOption> QuestionOption { get; set; }
 
         public JaxContext()
         {
-            this.Database.EnsureCreated();
+            //this.Database.EnsureCreated();
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

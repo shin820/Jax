@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "b5874fcba0c34eb26f2e1b16b93955e877dd9280"
+    "signature": "69aaece72377d97971b81c71240d5f9d4ea6edb8"
   },
   "compilationOptions": {
     "defines": [
@@ -31,7 +31,8 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-          "Pomelo.EntityFrameworkCore.MySql": "1.0.1"
+          "Pomelo.EntityFrameworkCore.MySql": "1.0.1",
+          "Microsoft.EntityFrameworkCore.Design": "1.0.1"
         },
         "compile": {
           "Jax.dll": {}
@@ -727,6 +728,19 @@
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Design/1.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.1",
+          "System.AppContext": "4.1.0",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/1.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
@@ -737,6 +751,14 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/1.0.0": {
@@ -2772,7 +2794,8 @@
           "Microsoft.Extensions.Logging.Debug": "1.0.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
-          "Pomelo.EntityFrameworkCore.MySql": "1.0.1"
+          "Pomelo.EntityFrameworkCore.MySql": "1.0.1",
+          "Microsoft.EntityFrameworkCore.Design": "1.0.1"
         },
         "runtime": {
           "Jax.dll": {}
@@ -3471,6 +3494,19 @@
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Design/1.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Relational.Design": "1.0.1",
+          "System.AppContext": "4.1.0",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Design.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/1.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.0.1",
@@ -3481,6 +3517,14 @@
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational.Design/1.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Relational.Design.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/1.0.0": {
@@ -5648,10 +5692,20 @@
       "serviceable": true,
       "sha512": "sha512-bprn1t+6muzkNzh64Art4w20L1FKDFac/Tx4h+4d7Sd9ivRqAaec6MqU700CFo6h6CHjAjWeqzYjQFroCouECQ=="
     },
+    "Microsoft.EntityFrameworkCore.Design/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a2vn4bl3C6hJqK4Mm7mz4iuHaE2KdBSav3EKyVlgE2qofxLnw03Hf2nB3LvIQgMw40RodV3tp3o3E+x6jZKTSA=="
+    },
     "Microsoft.EntityFrameworkCore.Relational/1.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-2LZ746BTMSoAHsqsxFAVYVzo/ziS682z2evAxDnwwg1Fw27MuxqEjl38YWz5OE1TchmtEPxWWVcup+sL6rjPXg=="
+    },
+    "Microsoft.EntityFrameworkCore.Relational.Design/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GBN8QmrqcQo4WB4rKsPfzVaVKeHN6GSRF+eOTZWqK1vJ7T5kpG4PtxOkqOw8aZDRJbehAleD+dHYBOkngFzafA=="
     },
     "Microsoft.Extensions.Caching.Abstractions/1.0.0": {
       "type": "package",
