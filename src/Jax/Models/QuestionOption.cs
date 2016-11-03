@@ -11,5 +11,6 @@ namespace Jax.Models
         public int QuestionId { get; set; }
         public string Key { get; set; }
         public string Name { get; set; }
+        public Question Question { get; set; }
     }
 }

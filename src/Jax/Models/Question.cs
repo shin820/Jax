@@ -11,5 +11,6 @@ namespace Jax.Models
         public string Name { get; set; }
         public int SurveyId { get; set; }
         public QuestionType Type { get; set; }
+        public List<QuestionOption> QuestionOptions { get; set; }
     }
 }

@@ -12,5 +12,7 @@ namespace Jax.Models
         public int QuestionOptionId { get; set; }
         public string Text { get; set; }
         public bool? IsSelected { get; set; }
+        public Question Question { get; set; }
+        public QuestionOption QuestionOption { get; set; }
     }
 }
