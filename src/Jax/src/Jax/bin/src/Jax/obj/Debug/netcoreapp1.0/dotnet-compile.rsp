@@ -1,5 +1,5 @@
---temp-output:D:\SourceCode\Jax\src\Jax\src\Jax\obj\Debug\netcoreapp1.0\
---out:D:\SourceCode\Jax\src\Jax\src\Jax\bin\Debug\netcoreapp1.0\Jax.dll
+--temp-output:D:\SourceCode\Jax\src\Jax\src\Jax\bin\src\Jax\obj\Debug\netcoreapp1.0\
+--out:D:\SourceCode\Jax\src\Jax\src\Jax\bin\src\Jax\bin\Debug\netcoreapp1.0\Jax.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -228,7 +228,7 @@
 --reference:C:\Users\shin.liu\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\shin.liu\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\shin.liu\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"D:\SourceCode\Jax\src\Jax\src\Jax\obj\Debug\netcoreapp1.0\Jaxdotnet-compile.deps.json",Jax.deps.json
+--resource:"D:\SourceCode\Jax\src\Jax\src\Jax\bin\src\Jax\obj\Debug\netcoreapp1.0\Jaxdotnet-compile.deps.json",Jax.deps.json
 D:\SourceCode\Jax\src\Jax\src\Jax\Program.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Startup.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Controllers\AccountController.cs
@@ -242,12 +242,9 @@ D:\SourceCode\Jax\src\Jax\src\Jax\Data\QuestionAnswer.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Data\QuestionOption.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Data\QuestionType.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Data\Survey.cs
-D:\SourceCode\Jax\src\Jax\src\Jax\Migrations\20161103100339_AppDbContext.cs
-D:\SourceCode\Jax\src\Jax\src\Jax\Migrations\20161103100339_AppDbContext.Designer.cs
-D:\SourceCode\Jax\src\Jax\src\Jax\Migrations\ApplicationDbContextModelSnapshot.cs
-D:\SourceCode\Jax\src\Jax\src\Jax\Migrations\JaxDb\20161103100403_JaxDbContext.cs
-D:\SourceCode\Jax\src\Jax\src\Jax\Migrations\JaxDb\20161103100403_JaxDbContext.Designer.cs
-D:\SourceCode\Jax\src\Jax\src\Jax\Migrations\JaxDb\JaxDbContextModelSnapshot.cs
+D:\SourceCode\Jax\src\Jax\src\Jax\Data\Migrations\00000000000000_CreateIdentitySchema.cs
+D:\SourceCode\Jax\src\Jax\src\Jax\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
+D:\SourceCode\Jax\src\Jax\src\Jax\Data\Migrations\ApplicationDbContextModelSnapshot.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Models\ApplicationUser.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
 D:\SourceCode\Jax\src\Jax\src\Jax\Models\AccountViewModels\ForgotPasswordViewModel.cs

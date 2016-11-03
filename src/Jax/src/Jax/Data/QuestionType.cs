@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Jax.Models.DataModels
+namespace Jax.Data
 {
     public enum QuestionType
     {
